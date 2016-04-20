@@ -44,12 +44,12 @@ disqus_short_name:
 disqus_show_comment_count: 
 
 # typekit
-typekit: 
+typekit: "rge0cdc"
 
 # Social Media
 facebook: 
 
 # Google Analytics
-google_analytics_tracking_id: 
+google_analytics_tracking_id: "UA-41553392-1"
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
