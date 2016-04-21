@@ -1,1 +1,1 @@
-$(document).ready(function(){$("nav.main-nav").before('<button class="menu-btn"><img src="/assets/images/menu.svg" />Menu</button>'),$("nav.main-nav ul").addClass("hide"),$(".menu-btn").click(function(){$("nav.main-nav ul").toggleClass("hide"),$(".menu-btn").toggleClass("close")}),Modernizr.mq("only all")?$("html").addClass("mq"):$("html").addClass("no-mq")});
+$(document).ready(function(){Modernizr.mq("only all")?$("html").addClass("mq"):$("html").addClass("no-mq"),$(".my-slider").unslider({autoplay:!0,infinite:!0,keys:!1,nav:!1,delay:7e3})});

@@ -1,6 +1,12 @@
-- text: About Us
-  url: /about-us/
-- text: Services
-  url: /services/
-- text: Projects
-  url: /projects/
+- text: About
+  url: /about/
+- text: Photo Gallery
+  url: /gallery/
+- text: Sod Types
+  url: /sod-types/
+- text: Ground Preparation
+  url: /ground-preparation/
+- text: Sod Installation
+  url: /sod-installation/
+- text: Contact
+  url: /contact/
