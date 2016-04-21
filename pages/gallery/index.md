@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Us
+title: Photo Gallery
 subtitle: Subtitle goes here.
-permalink: /about/
+permalink: /gallery/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 

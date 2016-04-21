@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Us
+title: Ground Preparation
 subtitle: Subtitle goes here.
-permalink: /about/
+permalink: /ground-preparation/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 

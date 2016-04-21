@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Us
+title: Sod Types
 subtitle: Subtitle goes here.
-permalink: /about/
+permalink: /sod-types/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 
