@@ -5,6 +5,7 @@ input[type="text"], input[type="email"], input[type="name"], input[type="passwor
   font-family: $font-family;
   border: 1px solid #D3D3D3;
   border-radius: 3px;
+  margin-bottom: .5em;
   &:active, &:focus {
     border: 1px solid $color-one;
     box-shadow: none;
