@@ -1,24 +1,31 @@
 .menu {
-  padding: 1em 0 0 0;
+  padding: 0;
   margin: 0;
-  font-family: $heading-font-family;
-  overflow: hidden;
-  float: none;
-  text-align: center;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 1em 2em 0 0;
+    text-align: right;
+    font-size: 1.1em;
+  }
   li {
     list-style: none;
     margin: 0;
-    display: inline-block;
-    height: 3em;
-    line-height: 3em;
+    display: block;
+    padding: 0;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      display: inline-block;
+      line-height: 3em;
+    }
     a {
-      margin-left: 1.5em;
-      text-transform: uppercase;
-      font-weight: 600;
-      //color: #fff;
+      font-weight: 500;
       font-size: 1em;
-      //text-shadow: 0 1px 1px rgba(0,0,0,0.2);
       transition: all 0.5s ease;
+      padding: .75em 1em;
+      display: block;
+      color: #2C2C2C;
+      @include breakpoint($tablet, $no-query: '.no-mq') {
+        margin-left: 1.5em;
+        padding: 0;
+      }
       &:hover {
         color: #333;
       }
@@ -26,28 +33,34 @@
         top: 1px;
         position: relative;
       }
-    }
-    //&:first-child a { margin-left: 0;}
-    
+    }    
   } 
   a, a:visited { text-decoration: none; }
+}
 
-  @include breakpoint($tablet, $no-query: '.no-mq') {
-    padding: 1.5em 0 0 0;
-    //float: right;
-
+.js .main-nav {
+  .menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      max-height: none;
+    }
+    &.show {
+      max-height: 500px;
+    }
   }
 }
 
-/*
-.menu-btn {
-  display: inline-block;
-  float: right;
-  margin: 50px 25px 0 0;
-  background: none;
+
+.js .menu-btn {
+  padding: 1em;
+  background: $color-one;
   border: none;
-  font-size: 135%;
-  font-family: $heading-font-family;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-align: center;
   @include breakpoint($tablet, $no-query: '.no-mq') {
     display: none;
   }
@@ -55,23 +68,9 @@
     padding-right: .5em;
   }
 }
-nav.main-nav {
-  ul {
-    @include breakpoint($phone) {
-      position: absolute;
-      left: 0;
-      z-index: 99;
-      background: rgba(255,255,255,0.95);
-      width: 100%;
-      padding: 1em 0;
-      font-weight: 700;
-      transition: .25s all linear;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.8);
-    }
+
+.no-js {
+  .menu-btn {
+    display: none;
   }
-  .hide {
-    @include breakpoint($phone) {
-      left: -100%;
-    }
-  }
-}*/
+}
