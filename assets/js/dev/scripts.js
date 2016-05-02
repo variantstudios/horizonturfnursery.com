@@ -20,4 +20,9 @@ $(document).ready(function() {
       nav: false,
       delay: 7000
   });
+
+  $( ".menu-btn" ).on('click touchstart', function() {
+        $('.menu').toggleClass('show');
+    });
+
 });

@@ -1,44 +1,51 @@
 header.wrap {
   background: #fff;
-    margin: 0 auto;
-    @include clearfix;
-    //padding: 1em 2em 2em 2em;
+  margin: 0 auto;
+  @include clearfix;
+  //padding: 1em 2em 2em 2em;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    //padding: 4em 2em 0;
+  }
+  .contact {
+    color: $color-one;
+    text-align: center;
+    padding: 1em 1em;
+    background: #E7E7E7;
     @include breakpoint($tablet, $no-query: '.no-mq') {
-      //padding: 4em 2em 0;
-    }
-    .contact {
-      background: #E7E7E7;
       text-align: right;
       padding: 1.5em 2em 0 1.5em;
-      span {
-        display: inline-block;
-        
-        &.text {
+    }
+    span {
+      display: inline-block;
+      
+      &.text {
+        font-weight: 700;
+        font-size: 1.1em;
+        @include breakpoint($tablet, $no-query: '.no-mq') {
           font-weight: 700;
-          font-size: 1.5em;
-        }
-        &.phone {
-          margin-left: .5em;
-          font-size: 1.5em;
+          font-size: 1.4em;
         }
       }
+      &.phone {
+        font-size: 1.1em;
+        @include breakpoint($tablet, $no-query: '.no-mq') {
+          margin-left: .5em;
+         font-size: 1.4em;
+        }
 
-      @include breakpoint($tablet, $no-query: ".no-mq") {
-        @include grid-span(9,4);
-         height: 78px;
       }
     }
-}
-
-body.front header.wrap{
-
-   @include breakpoint($tablet, $no-query: '.no-mq') {
-   }
-
+    @include breakpoint($tablet, $no-query: ".no-mq") {
+      @include grid-span(9,4);
+       height: 78px;
+    }
+  }
 }
 
 .header-top {
-  height: 166px;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    height: 166px;
+  }
 }
 
 
@@ -58,8 +65,9 @@ body.front header.wrap{
 
 .logo {
   text-align: center;
+  padding: 1em;
   @include breakpoint($tablet, $no-query: ".no-mq") {
-      @include grid-span(3,1);
+      @include grid-span(3,1,$gutter:0);
       //padding:2em 0;
       padding-top: 1em;
   }
