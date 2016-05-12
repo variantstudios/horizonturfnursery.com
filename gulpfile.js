@@ -65,7 +65,7 @@ gulp.task('sass-deploy', function () {
 gulp.task('watch', function () {
     gulp.watch('assets/sass/**', ['compass']);
     gulp.watch('assets/js/dev/**', ['scripts']);
-    gulp.watch(['**.md', '**.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'pages/**', 'assets/**.csv', 'assets/images/**'], ['jekyll-rebuild']);
+    gulp.watch(['**.md','_sodtypes/**.md', '**.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'pages/**', 'assets/**.csv', 'assets/images/**'], ['jekyll-rebuild']);
 });
 
 // Compile Compass/sass
