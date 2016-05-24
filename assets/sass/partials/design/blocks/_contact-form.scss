@@ -1,0 +1,27 @@
+form.contact-form {
+    clear: both;
+    label {
+        font-weight: 500;
+    }
+    @include breakpoint($tablet, $no-query:'.no-mq') {
+        .webform-component {
+            float: none;
+            clear: both;
+            margin-bottom: 10px;
+            &.left {
+                label {
+                    margin-right: 10px;
+                    display: inline-block;
+                }
+                input {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    display: inline-block;
+                }
+            }
+            .subfield {
+                margin-right: 10px;
+            }
+        }
+    }
+}

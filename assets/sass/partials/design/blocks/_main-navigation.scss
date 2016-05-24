@@ -13,7 +13,7 @@
     padding: 0;
     @include breakpoint($tablet, $no-query: '.no-mq') {
       display: inline-block;
-      line-height: 3em;
+      line-height: 66px;
     }
     a {
       font-weight: 500;
@@ -32,6 +32,9 @@
       &:active {
         top: 1px;
         position: relative;
+      }
+      &.active {
+        border-bottom: solid 4px #313131;
       }
     }    
   } 
