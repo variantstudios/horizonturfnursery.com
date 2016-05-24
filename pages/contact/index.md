@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Contact"
-subtitle: "Subtitle goes here."
+subtitle: ""
 permalink: /contact/
 header-image-path: "/assets/images/sub-page-headers/hill-front-twilight-a.jpg"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For the quickest response contact Horizon Turf Nursery at 970-867-2115 of complete this simple form and we will contact you as soon as possible.
 
 {% include contact-form.html %}
