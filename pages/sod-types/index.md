@@ -11,7 +11,7 @@ header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
   {% for item in site.sodtypes | sort: 'item.weight' | reverse %}
   	<!-- Editor Link -->
     <div class="edit-link">
-      <a href="https://app.cloudcannon.com/editor#/site/{{ site.site_id }}/collections/{% raw %}{{special.relative_path}}{% endraw %}">
+      <a href="cloudcannon:collections/_staff/{{ item.path }}">
         <img src="/assets/images/icons/settings.svg" />
         <span>Edit</span>
       </a>
