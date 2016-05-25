@@ -1,5 +1,5 @@
 <ul>
     {% for image in page.gallery %}
-    <li> <a href="{{image.large_image_path}}" title="{{image.title}}"></a> <img src="{{image.small_image_path}}" alt="{{image.title}}"></li>
+    <li><a href="{{image.large_image_path}}" title="{{image.title}}"><img src="{{image.small_image_path}}" alt="{{image.title}}"></a></li>
     {% endfor %}
 </ul>

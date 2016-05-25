@@ -16,7 +16,6 @@
         width: 51px;
         height: 50px;
     }
-
 }
 
 .caption {
@@ -28,9 +27,11 @@
     float: right;
     z-index: 9;
     margin: -100px 100px 0 0;
-    h2,h3,h4 {
-    	margin: 0;
-    	padding: 0;
-    	color: #fff;
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
     }
 }

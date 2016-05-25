@@ -1,56 +1,58 @@
 .footer-wrapper {
-  @include clearfix;
-  width: 100%;
-  @include breakpoint($tablet, $no-query: '.no-mq') {
-  }
+    @include clearfix;
+    width: 100%;
+    @include breakpoint($tablet, $no-query: '.no-mq') {}
 }
+
 footer.wrap {
-  //padding: 1.5em 2em 1em;
-  font-size: 95%;
-  .left {
-    @include breakpoint($tablet, $no-query: '.no-mq') {
-      @include grid-span(6, 1, $gutter: 0);
+    //padding: 1.5em 2em 1em;
+    font-size: 95%;
+    .left {
+        @include breakpoint($tablet, $no-query: '.no-mq') {
+            @include grid-span(6, 1, $gutter: 0);
+        }
     }
-  }
-  .right {
-    @include breakpoint($tablet, $no-query: '.no-mq') {
-      @include grid-span(6, 7, $gutter: 0);
-        text-align: right;
+    .right {
+        @include breakpoint($tablet, $no-query: '.no-mq') {
+            @include grid-span(6, 7, $gutter: 0);
+            text-align: right;
+        }
     }
-  }
-  .footer-top {
-    background-color: #000;
-    overflow: hidden;
-    color: #fff; 
-  }
-
-  .footer-bottom {
-    //overflow: hidden;
-    background-color: #313131;
-    //height: 130px;
-    color: #fff;
-    p {
-      margin: 0;
-      font-size: 90%;
-      }
-    .left { 
-        padding: 2em 2em 2em 2em;
-        text-align: center;
-
-      }
-    .right { 
-      padding: 2em;
-      text-align: center;
+    .footer-top {
+        background-color: #000;
+        overflow: hidden;
+        color: #fff;
     }
-    /* Tablet: Footer Bottom */
-    @include breakpoint($tablet, $no-query: '.no-mq') {
-      .left {
-        text-align: left;
-      }
-      .right {
-        text-align: right;
-      }
+    .footer-bottom {
+        //overflow: hidden;
+        background-color: #313131;
+        //height: 130px;
+        color: #C5C5C5;
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        p {
+            margin: 0;
+            font-size: 90%;
+        }
+        .left {
+            padding: 2em 2em 2em 2em;
+            text-align: center;
+        }
+        .right {
+            padding: 2em;
+            text-align: center;
+        }
+        /* Tablet: Footer Bottom */
+        @include breakpoint($tablet, $no-query: '.no-mq') {
+            .left {
+                text-align: left;
+            }
+            .right {
+                text-align: right;
+            }
+        }
     }
-  }
-
 }
