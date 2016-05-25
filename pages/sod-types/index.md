@@ -25,5 +25,3 @@ header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 
   {% endfor %}
 </div>
-
-<canvas id="bar" height="450" width="600"></canvas>
