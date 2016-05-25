@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Photo Gallery
+description: ""
 subtitle: Subtitle goes here.
 permalink: /gallery/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"

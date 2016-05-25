@@ -1,0 +1,36 @@
+.unslider {
+    min-width: 100%
+}
+
+.unslider-arrow {
+    position: relative;
+    &.prev {
+        float: left;
+        margin: -25% 0 0;
+        width: 51px;
+        height: 50px;
+    }
+    &.next {
+        float: right;
+        margin: -25% 0 0;
+        width: 51px;
+        height: 50px;
+    }
+
+}
+
+.caption {
+    background: url(/assets/images/icons/arrow.svg) 20px center no-repeat rgba(29, 29, 29, .71);
+    display: inline-block;
+    position: relative;
+    padding: 1.5em 2.5em 1.5em 3.5em;
+    color: #fff;
+    float: right;
+    z-index: 9;
+    margin: -100px 100px 0 0;
+    h2,h3,h4 {
+    	margin: 0;
+    	padding: 0;
+    	color: #fff;
+    }
+}

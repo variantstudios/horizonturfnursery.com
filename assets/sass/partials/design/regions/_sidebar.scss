@@ -2,8 +2,14 @@
     background: $color-two;
     text-align: center;
     padding: 2em 2em;
-    * {
         color: #fff;
         margin: 0;
-    }
+      h4 {
+        color: #fff;
+      }
+}
+
+a.sidebarlogo {
+  margin: 1em 0;
+  display: block;
 }

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ground Preparation
+description: ""
 subtitle: Subtitle goes here.
 permalink: /ground-preparation/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"

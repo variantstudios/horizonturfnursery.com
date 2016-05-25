@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Contact"
+description: ""
 subtitle: ""
 permalink: /contact/
 header-image-path: "/assets/images/sub-page-headers/hill-front-twilight-a.jpg"
