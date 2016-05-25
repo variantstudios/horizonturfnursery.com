@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+description: ""
 subtitle: Subtitle goes here.
 permalink: /about/
 header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
