@@ -1,5 +1,5 @@
 $(document).ready(function() {
- /*
+    /*
   $('nav.main-nav').before('<button class="menu-btn"><img src="/assets/images/menu.svg" />Menu</button>');
   $('nav.main-nav ul').addClass('hide');
 
@@ -8,21 +8,27 @@ $(document).ready(function() {
       $(".menu-btn").toggleClass('close');
   });
 */
-	if(Modernizr.mq('only all')) {
-		$('html').addClass('mq');
-	} else {
-		$('html').addClass('no-mq');
-	};
-  $('.my-slider').unslider({
-      autoplay: true,
-      infinite: true,
-      keys: false,
-      nav: false,
-      delay: 7000
-  });
+    if (Modernizr.mq('only all')) {
+        $('html').addClass('mq');
+    } else {
+        $('html').addClass('no-mq');
+    };
+    $('.my-slider').unslider({
+        autoplay: true,
+        infinite: true,
+        keys: false,
+        nav: false,
+        delay: 7000
+    });
 
-  $( ".menu-btn" ).on('click touchstart', function() {
+    $(".menu-btn").on('click touchstart', function() {
         $('.menu').toggleClass('show');
+    });
+
+
+    $('.home-slider').unslider({
+        autoplay: true,
+        nav: false
     });
 
 });

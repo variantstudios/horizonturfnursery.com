@@ -1,25 +1,30 @@
-
 <header role="banner" itemscope class="wrap clearfix">
-    
-  <div class="header-top">
-    <section class="site-name logo">
-      <a href="/"><img src="/assets/images/logo.svg" /></a>
-    </section>
-    <div class="contact">
-      <span class="text">Call us today!</span> <span class="phone">970-867-2115</span>
+    <div class="header-top">
+        <section class="site-name logo">
+            <a href="/"><img src="/assets/images/logo.svg" /></a>
+        </section>
+        <div class="contact">
+            <span class="text">Call us today!</span> <span class="phone">970-867-2115</span>
+        </div>
+        <div class="menu-btn">Open Menu</div>
+        <nav role="navigation" class="main-nav">
+            {% include nav.html nav=site.data.menu %}
+        </nav>
     </div>
-
-    <div class="menu-btn">Open Menu</div>
-    <nav role="navigation" class="main-nav">
-
-      {% include nav.html nav=site.data.menu %}
-    </nav>
-  </div>
-  
-  
-  <section class="hero">
-    <img src="{{page.header-image-path}}">
-  </section>
-
+    
+    <section class="hero">
+      {% if page.slider-path %}
+        <div class="home-slider">
+            <ul>
+                {% for image in page.slider-path %}
+                <li> <img src="{{image}}"></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="caption">
+            <h3>{{page.slider-text}}</h3></div>
+        {% else %}
+        <img src="{{page.header-image-path}}"> 
+        {% endif %}
+    </section>
 </header>
-
