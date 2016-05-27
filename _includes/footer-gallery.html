@@ -1,0 +1,8 @@
+<ul>
+    {% for image in page.gallery limit:7 %}
+    <li><img src="{{image.small_image_path}}" alt="{{image.title}}"></li>
+    {% endfor %}
+</ul>
+<div class="footer-caption">
+    <h3><a href="/gallery/">View our Photo Gallery</a></h3>
+</div>
