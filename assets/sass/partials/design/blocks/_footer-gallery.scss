@@ -1,0 +1,34 @@
+.footer-gallery {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            float: left;
+            img {
+                display: block;
+            }
+        }
+    }
+    .footer-caption {
+        background: rgba(29, 29, 29, .71);
+        display: inline-block;
+        padding: 1em 2em;
+        position: absolute;
+        left: 38%;
+        z-index: 10;
+        margin: 0 auto;
+        top: 40px;
+        h3 a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
