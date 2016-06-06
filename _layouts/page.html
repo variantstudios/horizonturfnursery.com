@@ -7,16 +7,16 @@ layout: default
       <h2 class="subtitle">{{ page.subtitle }}</h2>
       <div>{{ content }}</div>
       {% if site.url == '/gallery/' %}
-	    {% include 'gallery.html' %}
+	    {% include gallery.html %}
 	  {% endif %}
-      {% if site.url == 'contact.html' %}
-	    {% include 'contact-form.html' %}
+      {% if site.url == 'contact/' %}
+	    {% include contact-form.html %}
 	  {% endif %}
       {% if site.url == '/about/' %}
-	    {% include 'team.html' %}
+	    {% include team.html %}
 	  {% endif %}
 	  {% if site.url == '/sod-types/' %}
-	    {% include 'sod-types-collection.html' %}
+	    {% include sod-types-collection.html %}
 	  {% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
