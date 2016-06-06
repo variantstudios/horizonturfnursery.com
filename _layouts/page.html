@@ -9,11 +9,11 @@ layout: default
       {% if site.url == '/gallery/' %}
 	    {% include gallery %}
       {% else if site.url == '/contact/' %}
-	    {% include contactform %}
+	    {% include 'contact-form' %}
       {% else if site.url == '/about/' %}
 	    {% include team %}
 	  {% else if site.url == '/sod-types/' %}
-	    {% include sod-types %}
+	    {% include 'sod-types' %}
 	  {% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
