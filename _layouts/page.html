@@ -6,15 +6,27 @@ layout: default
       <h1 class="pagetitle">{{ page.title }}</h1>
       <h2 class="subtitle">{{ page.subtitle }}</h2>
       <div>{{ content }}</div>
-      {% if site.url == '/gallery/' %}
+      {% if page.url == '/gallery/' %}
 	    {% include gallery.html %}
-      {% elsif site.url == 'contact/' %}
+      {% elsif page.url == 'contact/' %}
 	    {% include contact-form.html %}
-      {% elsif site.url == '/about/' %}
+      {% elsif page.url == '/about/' %}
 	    {% include team.html %}
-	  {% elsif site.url == '/sod-types/' %}
+	  {% elsif page.url == '/sod-types/' %}
 	    {% include sod-types-collection.html %}
+	  {% else %}
 	  {% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
 </main>
+
+        <!--{% if page.sub-nav == "explore" %}-->
+        <!--  {% include sub-nav.html nav=site.data.explore-menu  %}-->
+        <!--{% elsif page.sub-nav == "play" %}-->
+        <!--  {% include sub-nav.html nav=site.data.play-menu  %}-->
+        <!--{% elsif page.sub-nav == "work" %}-->
+        <!--  {% include sub-nav.html nav=site.data.work-menu  %}-->
+        <!-- {% elsif page.sub-nav == "more" %}-->
+        <!--  {% include sub-nav.html nav=site.data.more-menu  %}-->
+        <!-- {% else %}-->
+        <!--{% endif %}-->
