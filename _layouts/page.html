@@ -12,6 +12,8 @@ layout: default
 	    {% include contact-form.html %}
       {% else if site.url == '/about/' %}
 	    {% include team.html %}
+	  {% else if site.url == '/sod-types/' %}
+	    {% include sod-types.html %}
 	  {% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
