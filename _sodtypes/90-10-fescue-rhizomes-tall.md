@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "90/10 Fescue 90% Rhizomes Tall"
 subtitle: "Fescues/10% Hybrid Texas Bluegrass"
 weight: 2
