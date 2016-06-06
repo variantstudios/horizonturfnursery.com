@@ -8,9 +8,9 @@ layout: default
       <div>{{ content }}</div>
       {% if site.url == '/gallery/' %}
 	    {% include gallery.html %}
-      {% elseif site.url == '/contact/' %}
+      {% else if site.url == '/contact/' %}
 	    {% include contact-form.html %}
-      {% elseif site.url == '/about/' %}
+      {% else if site.url == '/about/' %}
 	    {% include team.html %}
 	  {% endif %}
     </section>
