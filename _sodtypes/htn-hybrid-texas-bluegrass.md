@@ -1,5 +1,4 @@
 ---
-layout: page
 title: HTN Hybrid Texas Bluegrass
 subtitle: "A hybrid between Texas bluegrass and Kentucky Bluegrass, Longhorn."
 weight: 3
