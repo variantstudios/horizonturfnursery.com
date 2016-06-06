@@ -7,13 +7,13 @@ layout: default
       <h2 class="subtitle">{{ page.subtitle }}</h2>
       <div>{{ content }}</div>
       {% if site.url == '/gallery/' %}
-	    {% include gallery %}
+	    {% include 'gallery.html' %}
       {% else if site.url == '/contact/' %}
-	    {% include contact-form %}
+	    {% include 'contact-form.html' %}
       {% else if site.url == '/about/' %}
-	    {% include team %}
+	    {% include 'team.html' %}
 	  {% else if site.url == '/sod-types/' %}
-	    {% include sod-types %}
+	    {% include 'sod-types.html' %}
 	  {% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
