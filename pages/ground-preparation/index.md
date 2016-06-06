@@ -4,7 +4,7 @@ title: Ground Preparation
 description: ""
 subtitle: Subtitle goes here.
 permalink: /ground-preparation/
-header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 
 Proper Ground Preparation for Sod Installation: When installing sod, there are two important factors: (1) proper preparation of the installation site and (2) the capability to harvest the sod. The following steps are essential to the establishment of a lawn:
