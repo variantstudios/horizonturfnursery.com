@@ -1,5 +1,4 @@
 ---
-layout: page
 title: HTN Kentucky Bluegrass
 subtitle: "A blend of four different classifications of bluegrass cultivars, each one bringing something good to the turf landscape."
 weight: 1
