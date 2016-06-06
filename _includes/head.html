@@ -14,8 +14,14 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="/assets/css/style.css" media="screen" />
+	{% if page.url == '/gallery/' %}
+	<link rel="stylesheet" href="/assets/css/colorbox.css"  media="screen" />
+	{% endif %}
 	<link rel="stylesheet" href="/assets/css/print.css"  media="print" />
+	{% if page.url == '/sod-types/' %}
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.2/Chart.min.js"></script>
+	{% endif %}
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script>window.Modernizr || document.write('<script src="/assets/js/prod/modernizr-2.8.3.min.js"><\/script>')</script>
