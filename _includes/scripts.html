@@ -11,6 +11,14 @@
   });
 </script>
 
+{% if page.url == '/gallery/' %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+$(".gallery-item").colorbox({rel:'gallery-item'});
+</script>
+{% endif %}
+
+
 {% if site.google_analytics_tracking_id %}
 <!-- google analytics -->
 <script>

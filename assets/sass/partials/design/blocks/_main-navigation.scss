@@ -18,16 +18,18 @@
     a {
       font-weight: 500;
       font-size: 1em;
-      transition: all 0.5s ease;
+      transition: all 0.1s ease;
       padding: .75em 1em;
       display: block;
       color: #2C2C2C;
+      border-bottom: solid 4px #F4F4F4;
       @include breakpoint($tablet, $no-query: '.no-mq') {
         margin-left: 1.5em;
         padding: 0;
       }
       &:hover {
         color: #333;
+        border-bottom: solid 4px #313131;
       }
       &:active {
         top: 1px;
