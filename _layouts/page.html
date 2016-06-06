@@ -6,6 +6,14 @@ layout: default
       <h1 class="pagetitle">{{ page.title }}</h1>
       <h2 class="subtitle">{{ page.subtitle }}</h2>
       <div>{{ content }}</div>
+      {% if site.url == '/gallery/' %}
+	    {% include gallery.html %}
+      {% else if site.url == '/contact/' %}
+	    {% include contact-form.html %}
+      {% else if site.url == '/about/' %}
+	    {% include team.html %}
+	  {% endif %}  
+{% endif %}
     </section>
     <div>{% include sidebar.html %}</div>
 </main>
