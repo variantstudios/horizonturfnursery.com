@@ -1,5 +1,4 @@
 ---
-layout: page
 title: HTN A-34 Sports Turf
 subtitle: ""
 weight: 4
