@@ -4,7 +4,7 @@ title: Sod Installation
 description: ""
 subtitle: Installation and Establishment of New Sod in the Landscape
 permalink: /sod-installation/
-header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 
 ##### Background: 
