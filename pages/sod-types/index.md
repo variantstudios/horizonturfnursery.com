@@ -4,7 +4,7 @@ title: Sod Types
 description: ""
 subtitle: Subtitle goes here.
 permalink: /sod-types/
-header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 ---
 
 <div class="sod-types">
