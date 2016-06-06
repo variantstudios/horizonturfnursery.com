@@ -3,7 +3,7 @@ layout: page
 title: Photo Gallery
 description: ""
 subtitle: Subtitle goes here.
-header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 gallery:
   - title: Test Image
     small_image_path: "/assets/images/gallery/small/westglow07.jpg"
