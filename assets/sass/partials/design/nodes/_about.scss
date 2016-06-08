@@ -1,0 +1,23 @@
+.about {
+    ul.team {
+        padding: 0;
+        
+        li {
+            @include clearfix;
+            list-style: none;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .left {
+            @include breakpoint($tablet, $no-query: '.no-mq') {
+                @include grid-span(4, 1, $gutter: 0);
+            }
+        }
+        .right {
+            @include breakpoint($tablet, $no-query: '.no-mq') {
+                @include grid-span(8, 5, $gutter: 0);
+            }
+        }
+    }
+}

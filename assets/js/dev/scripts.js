@@ -13,13 +13,13 @@ $(document).ready(function() {
     } else {
         $('html').addClass('no-mq');
     };
-    $('.my-slider').unslider({
-        autoplay: true,
-        infinite: true,
-        keys: false,
-        nav: false,
-        delay: 7000
-    });
+    // $('.my-slider').unslider({
+    //     autoplay: true,
+    //     infinite: true,
+    //     keys: false,
+    //     nav: false,
+    //     delay: 7000
+    // });
 
     $(".menu-btn").on('click touchstart', function() {
         $('.menu').toggleClass('show');
@@ -30,5 +30,26 @@ $(document).ready(function() {
         autoplay: true,
         nav: false
     });
+
+    $(window).load(function(){
+        
+        if (queryString() == "yes"){
+          $('#contact-message').html( "<h3>Thank you. Your message has been sent. We will contact you shortly.</h3>" );
+        }
+        
+    });
+
+    function queryString()
+    {
+        var queryString = window.location.search;
+        var varArray = queryString.split("&");
+        for (var i=0;i<varArray.length;i++) {
+          var param = varArray[i].split("=");
+            //parameter-value pair
+            console.log('param', param[1]);
+            return param[1];
+        }
+    } 
+
 
 });
