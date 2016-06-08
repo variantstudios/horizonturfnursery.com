@@ -12,6 +12,7 @@ team:
   - name: "Jason Baird – Sales Representative"
     image_path: "/assets/images/team/jason-baird.jpg"
     bio: "With little knowledge about sod, Jason started as a forklift operator in 1990. After educating himself through various classes on turf identification and turf maintenance practices, Jason continued his career in farm management and outside sales. Jason now dedicates his time to selling quality turf and managing installations for landscape contractors."
+class: about
 ---
 
 
