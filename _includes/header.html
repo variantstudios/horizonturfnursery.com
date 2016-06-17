@@ -1,31 +1,31 @@
 <header role="banner" itemscope class="wrap clearfix">
-    <div class="header-top">
-        <section class="site-name logo">
-            <a href="/"><img src="/assets/images/logo.svg" /></a>
-        </section>
-        <div class="contact">
-            <span class="text">Call us today!</span> <span class="phone">970-867-2115</span>
-        </div>
-        <div class="menu-btn">Open Menu</div>
-        <nav role="navigation" class="main-nav">
-            {% include nav.html nav=site.data.menu %}
-        </nav>
-    </div>
-    <section class="hero">
-        {% if page.slider %}
-        <div class="home-slider">
-            <ul>
-                {% for image in page.slider %}
-                <li> <img src="{{image.image_path}}">
-                    <span class="caption"><h3>{{image.title}}</h3></span>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% else %}
-        <section class="hero">
-            <img src="{{page.header_image_path}}">
-        </section>
-        {% endif %}
+  <div class="header-top">
+    <section class="site-name logo">
+      <a href="/"><img src="/assets/images/logo.svg" /></a>
     </section>
+    <div class="contact">
+      <span class="text">Call us today!</span> <span class="phone"><a href="tel:+19708672115">970-867-2115</a></span>
+    </div>
+    <div class="menu-btn">Open Menu</div>
+    <nav role="navigation" class="main-nav">
+      {% include nav.html nav=site.data.menu %}
+    </nav>
+  </div>
+  <section class="hero">
+    {% if page.slider %}
+    <div class="home-slider">
+      <ul>
+        {% for image in page.slider %}
+        <li> <img src="{{image.image_path}}">
+          <span class="caption"><h3>{{image.title}}</h3></span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% else %}
+    <section class="hero">
+      <img src="{{page.header_image_path}}">
+    </section>
+    {% endif %}
+  </section>
 </header>

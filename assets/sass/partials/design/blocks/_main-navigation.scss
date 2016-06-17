@@ -18,7 +18,7 @@
     a {
       font-weight: 500;
       font-size: 1em;
-      transition: all 0.1s ease;
+      transition: all .1s ease;
       padding: .75em 1em;
       display: block;
       color: #2C2C2C;
@@ -38,11 +38,10 @@
       &.active {
         border-bottom: solid 4px #313131;
       }
-    }    
-  } 
+    }
+  }
   a, a:visited { text-decoration: none; }
 }
-
 .js .main-nav {
   .menu {
     max-height: 0;
@@ -56,8 +55,6 @@
     }
   }
 }
-
-
 .js .menu-btn {
   padding: 1em;
   background: $color-one;
@@ -73,7 +70,6 @@
     padding-right: .5em;
   }
 }
-
 .no-js {
   .menu-btn {
     display: none;
