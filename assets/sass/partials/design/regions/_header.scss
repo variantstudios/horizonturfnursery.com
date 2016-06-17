@@ -17,9 +17,7 @@ header.wrap {
     }
     span {
       display: inline-block;
-      
       &.text {
-        
         font-size: 1.1em;
         @include breakpoint($tablet, $no-query: '.no-mq') {
           font-weight: 400;
@@ -29,11 +27,14 @@ header.wrap {
       &.phone {
         font-size: 1.1em;
         font-weight: 700;
+        a {
+          color: $color-one !important;
+          text-decoration: none;
+        }
         @include breakpoint($tablet, $no-query: '.no-mq') {
           margin-left: .5em;
          font-size: 1.4em;
         }
-
       }
     }
     @include breakpoint($tablet, $no-query: ".no-mq") {
