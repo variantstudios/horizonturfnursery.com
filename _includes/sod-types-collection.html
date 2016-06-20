@@ -1,7 +1,7 @@
 <div class="sod-types">
   {% for item in site.sodtypes | sort: 'item.weight' | reverse %}
-  <div class="sod-type-teaser">
-    	<!-- Editor Link -->
+    <div class="sod-type-teaser">
+      <!-- Editor Link -->
       <div class="edit-link">
         <a href="cloudcannon:collections/{{ item.relative_path }}">
           <img src="/assets/images/icons/settings.svg" />
@@ -9,19 +9,21 @@
         </a>
       </div>
       <h3>{{ item.title }}</h3>
-      <h6>{{ item.subtitle }}</h6>
+      {% if item.subtitle %}
+        <h6>{{ item.subtitle }}</h6>
+      {% endif %}
       {{ item.content }}
-      
       <canvas id="myChart{{item.weight}}" width="400" height="230"></canvas>
-
-  <script>
-      var ctx = document.getElementById("myChart{{item.weight}}");
-      var myChart = new Chart(ctx, {
+      <script>
+        var ctx = document.getElementById("myChart{{item.weight}}");
+        var myChart = new Chart(ctx, {
           type: 'bar',
           data: {
-            labels: [{% include sod-label.html %}],
+            labels: [{ % include sod - label.html %
+            }],
             datasets: [{
-              data: [{% include sod-values.html %}],
+              data: [{ % include sod - values.html %
+              }],
               label: 'Sod Stats',
               backgroundColor: 'rgba(197, 76, 74, 0.75)',
               borderColor: 'rgba(197, 76, 74, 1)',
@@ -32,13 +34,13 @@
             scales: {
               yAxes: [{
                 ticks: {
-                  beginAtZero:true
+                  beginAtZero: true
                 }
               }]
             }
           }
         });
       </script>
-  </div>
+    </div>
   {% endfor %}
 </div>

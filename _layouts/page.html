@@ -1,21 +1,20 @@
----
-layout: default
----
+--- layout: default ---
 <main>
-    <section class="content-wrapper wrap">
-      <h1 class="pagetitle">{{ page.title }}</h1>
+  <section class="content-wrapper wrap">
+    <h1 class="pagetitle">{{ page.title }}</h1>
+    {% if page.subtitle %}
       <h2 class="subtitle">{{ page.subtitle }}</h2>
-      <div>{{ content }}</div>
-      {% if page.url == '/gallery/' %}
-	    {% include gallery.html %}
-      {% elsif page.url == '/contact/' %}
-	    {% include contact-form.html %}
-      {% elsif page.url == '/about/' %}
-	    {% include team.html %}
-	  {% elsif page.url == '/sod-types/' %}
-	    {% include sod-types-collection.html %}
-	  {% else %}
-	  {% endif %}
-    </section>
-    <div>{% include sidebar.html %}</div>
+    {% endif %}
+    <div>{{ content }}</div>
+    {% if page.url == '/gallery/' %}
+      {% include gallery.html %}
+    {% elsif page.url == '/contact/' %}
+      {% include contact-form.html %}
+    {% elsif page.url == '/about/' %}
+      {% include team.html %}
+    {% elsif page.url == '/sod-types/' %}
+      {% include sod-types-collection.html %}
+    {% endif %}
+  </section>
+  <div>{% include sidebar.html %}</div>
 </main>
