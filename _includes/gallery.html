@@ -1,5 +1,9 @@
 <ul>
-    {% for image in page.gallery %}
-    <li itemscope class="grid-item"><a href="{{image.large_image_path}}" title="{{image.title}}" class="gallery-item"><img src="{{image.small_image_path}}" alt="{{image.title}}" itemprop="image" class="gallery-img lrg"></a></li>
-    {% endfor %}
+  {% for image in page.gallery %}
+    <li itemscope class="grid-item">
+      <a href="{{image.large_image_path}}" title="{{image.title}}" class="gallery-item">
+        <img src="{{image.small_image_path}}" alt="{{image.title}}" itemprop="image" class="gallery-img lrg">
+      </a>
+    </li>
+  {% endfor %}
 </ul>

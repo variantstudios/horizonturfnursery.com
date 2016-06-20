@@ -1,13 +1,13 @@
 <ul class="team">
-    {% for item in page.team %}
+  {% for item in page.team %}
     <li>
-    	<span class="left">
-    		<img src="{{item.image_path}}" alt="{{image.title}}">
-    	</span>
-    	<span class="right">
-    		<h3>{{item.name}}</h3>
-        	<p>{{item.bio}}</p>
-    	</span>
+      <div class="left">
+        <img src="{{item.image_path}}" alt="{{image.title}}">
+      </div>
+      <div class="right">
+        <h3>{{item.name}}</h3>
+        <p>{{item.bio}}</p>
+      </div>
     </li>
-    {% endfor %}
+  {% endfor %}
 </ul>
