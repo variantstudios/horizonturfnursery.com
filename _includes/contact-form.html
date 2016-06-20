@@ -1,55 +1,55 @@
 <div id="contact-message"></div>
 <form action="#" method="post" class="contact-form" action="/contact/?sent=true">
-    <div class="webform-component left">
-        <label for="first_name">Name</label><span class="required">*</span>
-        <input type="text" name="First Name" id="first_name" required="">
-        <label for="last_name">Last Name</label><span class="required">*</span>
-        <input type="text" name="Last Name" id="last_name" required="">
+  <div class="webform-component left">
+    <label for="first_name">Name</label><span class="required">*</span>
+    <input type="text" name="First Name" id="first_name" required="">
+    <label for="last_name">Last Name</label><span class="required">*</span>
+    <input type="text" name="Last Name" id="last_name" required="">
+  </div>
+  <div class="webform-component left">
+    <label for="email">Email</label><span class="required">*</span>
+    <input type="email" name="Email" id="email" required="">
+    <label for="phone_number">Phone Number</label>
+    <input type="text" name="Phone Number" id="phone_number">
+  </div>
+  <div class="webform-component">
+    <label for="previous_customer">Are you a previous customer?</label><span class="required">*</span>
+    <select id="previous_customer" name="Previous Customer" required name="Previous Customer">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+  </div>
+  <div class="webform-component">
+    <label>Are you a previous customer?</label>
+    <div>
+      <span class="subfield">
+        <label class="choice" for="htn_kentucky_bluegrass">HTN Kentucky Bluegrass</label>
+        <input id="htn_kentucky_bluegrass" name="HTN Kentucky Bluegrass" type="checkbox" class="field checkbox" value="true">
+      </span>
+      <span class="subfield">
+        <label class="choice" for="90_10_fescue">90/10 Fescue</label>
+        <input id="90_10_fescue" name="90/10 Fescue" type="checkbox" class="field checkbox" value="true">
+      </span>
+      <span class="subfield">
+        <label class="choice" for="htn_hybrid_texas_bluegrass">HTN Hybrid Texas Bluegrass</label>
+        <input id="htn_hybrid_texas_bluegrass" name="HTN Hybrid Texas Bluegrass" type="checkbox" class="field checkbox" value="true">
+      </span>
+      <span class="subfield">
+        <label class="choice" for="htn_a-34_sports_turf">HTN A-34 Sports Turf</label>
+        <input id="htn_a-34_sports_turf" name="HTN A-34 Sports Turf" type="checkbox" class="field checkbox" value="true">
+      </span>
+      <span class="subfield">
+        <label class="choice" for="colorado_blue_buffalo_grass">Colorado Blue Buffalo Grass</label>
+        <input id="colorado_blue_buffalo_grass" name="Colorado Blue Buffalo Grass" type="checkbox" class="field checkbox" value="true" >
+      </span>
     </div>
-    <div class="webform-component left">
-        <label for="email">Email</label><span class="required">*</span>
-        <input type="email" name="Email" id="email" required="">
-        <label for="phone_number">Phone Number</label>
-        <input type="text" name="Phone Number" id="phone_number">
-    </div>
-    <div class="webform-component">
-        <label for="previous_customer">Are you a previous customer?</label><span class="required">*</span>
-        <select id="previous_customer" name="Previous Customer" required=""  name="Previous Customer">
-            <option value="no">No</option>
-            <option value="yes">Yes</option>
-        </select>
-    </div>
-    <div class="webform-component">
-        <label for="type_of_sod">Are you a previous customer?</label>
-        <div>
-            <span class="subfield">
-               <label class="choice" for="htn_kentucky_bluegrass">HTN Kentucky Bluegrass</label>
-              <input id="htn_kentucky_bluegrass" name="HTN Kentucky Bluegrass" type="checkbox" class="field checkbox" value="true">
-            </span>
-            <span class="subfield">
-              <label class="choice" for="90_10_fescue">90/10 Fescue</label>
-              <input id="90_10_fescue" name="90/10 Fescue" type="checkbox" class="field checkbox" value="true">
-            </span>
-            <span class="subfield">
-              <label class="choice" for="htn_hybrid_texas_bluegrass">HTN Hybrid Texas Bluegrass</label>
-              <input id="htn_hybrid_texas_bluegrass" name="HTN Hybrid Texas Bluegrass" type="checkbox" class="field checkbox" value="true">
-            </span>
-            <span class="subfield">
-              <label class="choice" for="htn_a-34_sports_turf">HTN A-34 Sports Turf</label>
-              <input id="htn_a-34_sports_turf" name="HTN A-34 Sports Turf" type="checkbox" class="field checkbox" value="true">
-            </span>
-            <span class="subfield">
-              <label class="choice" for="colorado_blue_buffalo_grass">Colorado Blue Buffalo Grass</label>
-              <input id="colorado_blue_buffalo_grass" name="Colorado Blue Buffalo Grass" type="checkbox" class="field checkbox" value="true" >
-            </span>
-        </div>
-    </div>
-    <div class="webform-component">
-        <label for="Message">Tell us about your sod project.</label><span class="required">*</span>
-        <textarea id="message" name="Message" rows="6" cols="25"></textarea>
-    </div>
-    <input type="hidden" name="_to" value=" jason@horizonturfnursery.com,dick@horizonturfnursery.com,brent@variantstudios.com">
-    <input type="hidden" name="_subject" value="Horizon Turf Nursery - Contact Form">
-    <input type="text" name="_gotcha" style="display: none;">
-    <input class="sendButton" type="submit" value="Send">
+  </div>
+  <div class="webform-component">
+    <label for="message">Tell us about your sod project.</label><span class="required">*</span>
+    <textarea id="message" name="Message" rows="6" cols="25"></textarea>
+  </div>
+  <input type="hidden" name="_to" value=" jason@horizonturfnursery.com,dick@horizonturfnursery.com,brent@variantstudios.com">
+  <input type="hidden" name="_subject" value="Horizon Turf Nursery - Contact Form">
+  <input type="text" name="_gotcha" style="display: none;">
+  <input class="sendButton" type="submit" value="Send">
 </form>

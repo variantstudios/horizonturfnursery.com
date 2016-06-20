@@ -11,7 +11,7 @@
       {% include nav.html nav=site.data.menu %}
     </nav>
   </div>
-  <section class="hero">
+  <div class="hero">
     {% if page.slider %}
     <div class="home-slider">
       <ul>
@@ -26,9 +26,9 @@
       </ul>
     </div>
     {% else %}
-    <section class="hero">
+    <div class="hero">
       <img src="{{page.header_image_path}}" alt="{{page.title}}">
-    </section>
+    </div>
     {% endif %}
-  </section>
+  </div>
 </header>
