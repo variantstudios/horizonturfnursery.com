@@ -1,6 +1,5 @@
 ---
 title: HTN A-34 Sports Turf
-subtitle: ""
 weight: 4
 sod-stats:
   - label: Drought Tolerance
@@ -9,7 +8,7 @@ sod-stats:
     value: 10.0
   - label: Shade Tolerance
     value: 5.0
-  - label: Recovery from Moderate Wear 
+  - label: Recovery from Moderate Wear
     value: 10.0
   - label: Salt Tolerance
     value: 6.0
@@ -20,6 +19,6 @@ sod-stats:
 ---
 
 * Very aggressive varieties
-* Great choice for sports fields 
-* High use areas 
+* Great choice for sports fields
+* High use areas
 * Rapid regrowth
