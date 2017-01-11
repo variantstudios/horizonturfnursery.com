@@ -2,8 +2,8 @@
 title: Horizon Turf Nursery
 email: team@variantstudios.com
 description: 
-baseurl: "http://horizonturfnursery.com" # the subpath of your site, e.g. /blog/
-url: "http://horizonturfnursery.com/" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://www.horizonturfnursery.com/" # the base hostname & protocol for your site
 timezone: America/Denver
 
 # Site Author(s)
