@@ -1,5 +1,8 @@
 <div class="sod-types">
-  {% for item in site.sodtypes | sort: 'item.weight' %}
+    
+    {% assign sorted = site.sodtypes | sort: 'item.weight'  %}
+  
+  {% for item in site.sodtypes %}
     <div class="sod-type-teaser">
       <!-- Editor Link -->
       <div class="edit-link">
