@@ -9,9 +9,10 @@ $(document).ready(function() {
   });
   if ($('body.front').length > 0) {
     $('.home-slider').unslider({
+      delay: 5000,
       autoplay: true,
       nav: false,
-      delay: 500000
+      
     });
   }
   if ($('body.contact').length > 0) {
