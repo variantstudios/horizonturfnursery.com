@@ -1,26 +1,27 @@
 ---
-title: "90/10 Fescue 90% Rhizomes Tall"
-subtitle: "Fescues/10% Hybrid Texas Bluegrass"
+title: HTN 90/10 Mix
+subtitle:
 weight: 2
 sod-stats:
   - label: Drought Tolerance
-    value: 8.0
+    value: 8
   - label: Drought Recovery
-    value: 9.0
+    value: 9
   - label: Shade Tolerance
     value: 5.5
-  - label: Recovery from Moderate Wear 
-    value: 10.0
+  - label: Recovery from Moderate Wear
+    value: 10
   - label: Salt Tolerance
-    value: 5.0
+    value: 5
   - label: Heat Tolerance
-    value: 9.0
+    value: 9
   - label: Water Resistance
     value: 8.5
 ---
 
-* Deep rooting of fescue with added rhizomes root action to aid in repair.
-* Heat tolerance of Texas hybrid bluegrass 
-* Works well with commercial or residential areas 
-* Very good potential for low water use turf 
-* that will hold up very well to traffic
+
+* 90% improved varieties of Turf Type Tall Fescue with 10% Hybrid Texas Bluegrass
+* Deep rooting action of Fescue
+* Heat Tolerance of Texas Bluegrass
+* Works well with commercial or residential landscape
+* Specially blended for high salt tolerance for use with reclaimed water
