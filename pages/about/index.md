@@ -16,4 +16,4 @@ class: about
 ---
 
 
-Our mission is to provide you the customer with the highest quality that we can produce.
+Our mission is to provide our customers with the highest quality of products along dedicated, trustworthy and honest services.&nbsp;
