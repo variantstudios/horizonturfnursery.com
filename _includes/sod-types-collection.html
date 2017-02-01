@@ -19,9 +19,9 @@
         var myChart = new Chart(ctx, {
           type: 'bar',
           data: {
-            labels: [ {% include sod - label.html %} ],
+            labels: [ {% include sod-label.html %} ],
             datasets: [{
-              data: [ {% include sod - values.html %} ],
+              data: [ {% include sod-values.html %} ],
               label: 'Sod Stats',
               backgroundColor: 'rgba(197, 76, 74, 0.75)',
               borderColor: 'rgba(197, 76, 74, 1)',
