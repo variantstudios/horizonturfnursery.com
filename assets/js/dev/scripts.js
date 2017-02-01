@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.home-slider').unslider({
       autoplay: true,
       nav: false,
-      delay: 1000
+      delay: 5000
     });
   }
   if ($('body.contact').length > 0) {
