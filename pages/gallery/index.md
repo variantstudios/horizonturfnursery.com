@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Photo Gallery
-description:
-subtitle: Subtitle goes here.
+description: Horizon Turf Nursery collaborates with professional landscape contractors to provide the highest quality sod. View the many projects Horizon Turf Nursery has provided sod to in our photo gallery.
+subtitle:
 header_image_path: /assets/images/sub-page-headers/Designs_By_Sundown_View.jpg
 gallery:
   - title: West glow
