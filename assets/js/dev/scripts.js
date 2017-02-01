@@ -10,7 +10,8 @@ $(document).ready(function() {
   if ($('body.front').length > 0) {
     $('.home-slider').unslider({
       autoplay: true,
-      nav: false
+      nav: false,
+      delay: 1000
     });
   }
   if ($('body.contact').length > 0) {
