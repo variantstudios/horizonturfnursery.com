@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About Us
-description:
-subtitle: 'Honesty, trust and dedication to quality'
+description: Our mission is to provide you the customer with the highest quality that we can produce.
+subtitle: Dedication to quality
 permalink: /about/
 header_image_path: /assets/images/sub-page-headers/Designs_By_Sundown_View.jpg
 team:
