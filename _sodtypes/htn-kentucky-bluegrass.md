@@ -23,4 +23,3 @@ sod-stats:
 * Very dark green color
 * Aggressive recovery from drought stress
 * Resistance to many diseases
-* HTN 90/10 Fescue Mix (Specially blended for a high salt Tolerance for use with reclaimed water)
