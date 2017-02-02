@@ -4,7 +4,7 @@ subtitle:
 weight: 1
 sod-stats:
   - label: Drought Tolerance
-    value: 6
+    value: 5
   - label: Drought Recovery
     value: 8
   - label: Shade Tolerance
@@ -14,9 +14,7 @@ sod-stats:
   - label: Salt Tolerance
     value: 5
   - label: Heat Tolerance
-    value: 5
-  - label: Water Resistance
-    value: 8.5
+    value: 6
 ---
 
 
