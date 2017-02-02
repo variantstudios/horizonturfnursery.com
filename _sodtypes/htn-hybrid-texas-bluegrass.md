@@ -8,15 +8,13 @@ sod-stats:
   - label: Drought Recovery
     value: 9
   - label: Shade Tolerance
-    value: 5.5
+    value: 5
   - label: Recovery from Moderate Wear
-    value: 10
+    value: 9
   - label: Salt Tolerance
     value: 5
   - label: Heat Tolerance
     value: 9
-  - label: Water Resistance
-    value: 8.5
 ---
 
 
