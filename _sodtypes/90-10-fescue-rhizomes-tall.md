@@ -1,12 +1,12 @@
 ---
-title: HTN 90/10 Mix
+title: 90/10 Fescue Mix
 subtitle:
 weight: 2
 sod-stats:
   - label: Drought Tolerance
     value: 7
   - label: Drought Recovery
-    value: 9
+    value: 7
   - label: Shade Tolerance
     value: 7
   - label: Recovery from Moderate Wear
