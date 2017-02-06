@@ -11,3 +11,18 @@ div#contact-message span {
     	font-weight: normal;
     }
 }
+.contact-form {
+	span.subfield {
+		display: block;
+	}
+	@include breakpoint($desktop, $no-query: '.no-mq') {
+		span.subfield {
+			width: 45%;
+			display: inline-block;
+		}
+	}
+	input[type="text"], input[type="email"] {
+		width: 100%;
+	}
+
+}
