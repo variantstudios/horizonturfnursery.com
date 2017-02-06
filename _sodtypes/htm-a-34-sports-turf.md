@@ -14,6 +14,7 @@ sod-stats:
     value: 5
   - label: Heat Tolerance
     value: 6
+sitemap: false
 ---
 
 
