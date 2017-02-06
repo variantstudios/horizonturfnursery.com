@@ -34,7 +34,7 @@ Proper ground preparation is the key to long lasting, drought ready landscape. T
  
 #### 4) Install the sod immediately after delivery.
 * Arrange the rolls so there is a minimum amount of traffic on the prepared soil and the newly installed grass.
-* Lay sod in a horizontal brick pattern. Once an area of approximately 15 feet by 15 feet has been laid, rolled 
+* Lay sod in a horizontal brick pattern. Once an area of approximately 15 feet by 15 feet has been laid, rolled
 * and fertilized, water immediately.
 * The objective is not to let the sod dehydrate.
 * Butt ends and sides of the sod strips making sure there is no overlapping.
