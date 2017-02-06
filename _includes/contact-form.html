@@ -1,17 +1,23 @@
 <div id="contact-message"></div>
 <form action="#" method="post" class="contact-form" action="/contact/?sent=true">
-  <div class="webform-component left">
+  <div class="webform-component">
     <label for="full_name">Full Name</label><span class="required">*</span>
     <input type="text" name="Full Name" id="full_name" required="">
-    <label for="company">Company</label><span class="required">*</span>
+      </div>
+        <div class="webform-component">
+    <label for="company" class="second">Company</label><span class="required">*</span>
     <input type="text" name="Company" id="company" required="">
   </div>
-  <div class="webform-component left">
+  <div class="webform-component">
     <label for="email">Email</label><span class="required">*</span>
     <input type="email" name="Email" id="email" required="">
-    <label for="phone_number">Phone Number</label>
-    <input type="text" name="Phone Number" id="phone_number">
   </div>
+
+<div class="webform-component">
+  <label for="phone_number" class="second">Phone Number</label>
+  <input type="text" name="Phone Number" id="phone_number">
+    </div>
+
   <div class="webform-component">
     <label>Are you a previous customer?</label><span class="required">*</span>
     <input type="radio" name="Previous Customer" value="no" checked>No
@@ -27,7 +33,6 @@
         <label class="choice" for="90_10_fescue">90/10 Fescue Mix</label>
         <input id="90_10_fescue" name="90/10 Fescue Mix" type="checkbox" class="field checkbox" value="true">
       </span>
-      <br>
       <span class="subfield">
         <label class="choice" for="htn_hybrid_texas_bluegrass">HTN Hybrid Texas Bluegrass</label>
         <input id="htn_hybrid_texas_bluegrass" name="HTN Hybrid Texas Bluegrass" type="checkbox" class="field checkbox" value="true">

@@ -1,18 +1,15 @@
 # Site settings
 title: Horizon Turf Nursery
 email: team@variantstudios.com
-description: 
+description:
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://www.horizonturfnursery.com/" # the base hostname & protocol for your site
 timezone: America/Denver
 
-# Site Author(s)
-author:
-  name: Brent Robbins
-  email: brent@variantstudios.com
-  name: Michael McQueen
-  email: michael@variantstudios.com
-
+# Gems for plugins
+gems:
+  - jekyll-paginate # Needed to add paginate on Jekyll ver 3+
+  - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
 
 # Build settings
 highlighter: pygments
@@ -40,14 +37,14 @@ reading_time:     true
 words_per_minute: 200
 
 # Disqus Comments
-disqus_short_name: 
-disqus_show_comment_count: 
+disqus_short_name:
+disqus_show_comment_count:
 
 # typekit
 typekit: "rge0cdc"
 
 # Social Media
-facebook: 
+facebook:
 
 # Google Analytics
 google_analytics_tracking_id: "UA-41553392-1"
